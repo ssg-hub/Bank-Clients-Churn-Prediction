@@ -36,5 +36,5 @@ sklearn==0.0
 statsmodels==0.12.2
 streamlit==0.84.1
 streamlit-pandas-profiling==0.1.2
-virtualenv==20.0.17
+virtualenv==20.4.7
 Werkzeug==2.0.1
