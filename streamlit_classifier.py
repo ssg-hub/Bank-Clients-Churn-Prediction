@@ -40,7 +40,7 @@ image = Image.open('gender_income_marital.png')
 st.image(image, caption='Graphical Representation of data by Gender')
 
 st.header('Data Analysis')
-col1, col_mid, col2 = st.columns((1, 0.1, 1)) 
+col1, col_mid, col2 = st.beta_columns((1, 0.1, 1)) 
 with col1:
         st.subheader('')
         image = Image.open('Most common values.png')
@@ -53,7 +53,7 @@ with col2:
         st.image(image, caption='')
 
 st.header('Data Modeling Observations')
-col1, col_mid, col2 = st.columns((1, 0.1, 1)) 
+col1, col_mid, col2 = st.beta_columns((1, 0.1, 1)) 
 with col1:
         st.subheader('Hyperparameter tuning')
         #st.write('')
@@ -67,7 +67,7 @@ with col2:
         st.image(image, caption='Comparing different Classication Models')
 
 st.header('Random Forest Model Evaluation')
-col1, col_mid, col2 = st.columns((1, 0.1, 1)) 
+col1, col_mid, col2 = st.beta_columns((1, 0.1, 1)) 
 with col1:
         #st.subheader('Confusion Matrix')
         st.write('How correct are the classifications?')
@@ -86,7 +86,7 @@ with col2:
         st.image(image, caption='Transaction Counts and Amount are most important.')
 
 st.header('Classification Insights')
-col1, col_mid, col2 = st.columns((1, 0.1, 1)) 
+col1, col_mid, col2 = st.beta_columns((1, 0.1, 1)) 
 with col1:
         st.write('Customers are categorized based on their propensity to retain.')
         st.write('How much is the Attrition Risk?')
