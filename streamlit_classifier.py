@@ -63,7 +63,7 @@ with st.sidebar:
     st_profile_report(profile)
 
 
-with st.expander("Data Analysis"):
+with st.beta_expander("Data Analysis"):
         st.subheader('Important Observation')
         st.write('\n')
         st.write('Gender Pay Gap is evident')
@@ -84,7 +84,7 @@ with st.expander("Data Analysis"):
                 image = Image.open('120_silver.png')
                 st.image(image, caption='')
 
-with st.expander("Data Modeling"):
+with st.beta_expander("Data Modeling"):
         st.header('Data Modeling Observations')
         col1, col_mid, col2 = st.beta_columns((1, 0.1, 1)) 
         with col1:
@@ -99,7 +99,7 @@ with st.expander("Data Modeling"):
                 image = Image.open('Model Comparison.png')
                 st.image(image, caption='Comparing different Classication Models')
 
-with st.expander("Model Evaluation"):
+with st.beta_expander("Model Evaluation"):
         st.header('Random Forest Model Evaluation')
         col1, col_mid, col2 = st.beta_columns((1, 0.1, 1)) 
         with col1:
@@ -119,7 +119,7 @@ with st.expander("Model Evaluation"):
                 image = Image.open('imp features.png')
                 st.image(image, caption='Transaction Counts and Amount are most important.')
 
-with st.expander("Classification Insights"):
+with st.beta_expander("Classification Insights"):
         st.header('Classification Insights')
         col1, col_mid, col2 = st.beta_columns((1, 0.1, 1)) 
         with col1:
