@@ -1,7 +1,7 @@
 # Bank-Clients-Churn-Prediction
 Deploying on Streamlit, an app to analyse the classification of credit card churners.
 
-# learrning project
+# Machine Learning project  
 
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
@@ -13,7 +13,7 @@ Deploying on Streamlit, an app to analyse the classification of credit card chur
 <h2 align="center">Churn Prediction - Classification Data Analysis Project with Streamlit</h2>
 <p align="center"><a href="https://github.com/ssg-hub/Churn-Prediction-project">
 <img src="https://github.com/ssg-hub/ImmoEliza-Regression-project/blob/main/logo_Bouman_3.31.png" alt="Logo" width="200" height="200"></a></p>
-<h3 align="center">API Deployment Project to get predictions for prices of properties in Belgium based on property data input, as a part of Data&AI training at <a href="https://github.com/becodeorg"><strong>BeCode</strong></a></h3><br><br>
+<h3 align="center">Streamlit Deployment Project to get the classification for Credit Card customers with risk of attrition. We study the churn rate prediction here, as a part of Data&AI training.<a href="https://github.com/becodeorg"><strong>BeCode</strong></a></h3><br><br>
 
 <!-- TABLE OF CONTENTS -->
 <details open="open">
@@ -39,12 +39,11 @@ Deploying on Streamlit, an app to analyse the classification of credit card chur
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-This Machine Learning API deployment project was a part in the intermediate phase of Data and AI projects at Becode, Belgium.
-The data and the format of the data required to be input by the user is found at [ancient-journey-94670.herokuapp.com/predict/](ancient-journey-94670.herokuapp.com/predict/). The required property parameters are the _zipcode, area, type, number of rooms_ and presence of these factors _kitchen-equipped, furnished, fireplace, terrace, garden, swimming-pool and building-condition_.
+This Machine Learning Classification Model with deployment on Streamlit project was a part in the intermediate phase of Data and AI projects at Becode, Belgium.
+The final app for Data Analysis, Models' Comparison, Random Forest Classifier, Model Evaluation and Observations is hosted at [Classification Model at Streamlit](https://share.streamlit.io/ssg-hub/bank-clients-churn-prediction/main/streamlit_classifier.py). The dataset is about Existing and Attrited Customers of a bank. The Supervised Learning ML Model is trained and this tested for model evaluation on the _BankChurners.csv_ . 
 
+_The key result of this interactive app that shows with the underlying observation that the bank had untapped client potential in the target base of high earning females and that the total transaction counts are the most important feature in predicting if the card holder will churn or not._
 
-**The key result of this application in the _price of the property_  in Euros, predicted using the required parameters of the property to buy in Belgium.**
-This prediction is done using a machine learning Gradient Boost regression model built using a dataset, that was scraped from [www.immoweb.be](www.immoweb.be) in an earlier project.
 
 ### Built With
 
@@ -95,4 +94,15 @@ Distributed under the MIT License. See `LICENSE` for more information.
 Shilpa Singhal 
 
 Project Link: [https://github.com/ssg-hub/ImmoEliza-API-Deployment](https://github.com/ssg-hub/ImmoEliza-API-Deployment)
+
+
+[contributors-shield]: https://img.shields.io/github/contributors/ssg-hub/ImmoEliza-API-Deployment.svg?style=for-the-badge
+[contributors-url]: https://github.com/ssg-hub/ImmoEliza-API-Deployment/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/ssg-hub/ImmoEliza-API-Deployment.svg?style=for-the-badge
+[forks-url]: https://github.com/ssg-hub/ImmoEliza-API-Deployment/network/members
+[stars-shield]: https://img.shields.io/github/stars/ssg-hub/ImmoEliza-API-Deployment.svg?style=for-the-badge
+[stars-url]: https://github.com/ssg-hub/ImmoEliza-API-Deployment/stargazers
+[license-shield]: https://img.shields.io/github/license/ssg-hub/ImmoEliza-API-Deployment.svg?style=for-the-badge
+[license-url]: https://github.com/ssg-hub/ImmoEliza-API-Deployment/blob/main/LICENSE.txt
+
 
